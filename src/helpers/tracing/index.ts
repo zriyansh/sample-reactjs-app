@@ -8,7 +8,7 @@ import { FetchInstrumentation } from "@opentelemetry/instrumentation-fetch";
 import { FetchError } from "@opentelemetry/instrumentation-fetch/build/src/types";
 import { registerInstrumentations } from "@opentelemetry/instrumentation";
 
-const serviceName = "link-frontend";
+const serviceName = "sample-react-app";
 
 const resource = new Resource({ "service.name": serviceName });
 const provider = new WebTracerProvider({ resource });
